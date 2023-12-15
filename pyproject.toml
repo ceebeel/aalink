@@ -23,7 +23,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/artfwo/aalink"
+Homepage = "https://github.com/ceebeel/aalink"
 
 [tool.cibuildwheel]
 build-verbosity = 1
