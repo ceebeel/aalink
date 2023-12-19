@@ -2,11 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(aalink)
 
-message(STATUS "Python found: ${Python_EXECUTABLE}")
-
 find_package(Python 3.7 COMPONENTS Interpreter Development REQUIRED)
-
-message(STATUS "Python found: ${Python_EXECUTABLE}")
 
 if (NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build." FORCE)
